@@ -1,9 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+}
+
+label, p, a, button {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   margin: 0;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .header {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
   padding: 1em;
+  border-bottom: 1px solid transparent;
+  height: 93px;
+  box-sizing: border-box;
+}
+.header__logo {
+  height: 60px;
+}
+.header__linklist {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+.header__linkitem {
+  margin-right: 1em;
+}
+.header__linkitem:last-of-type {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=shared.css.map */

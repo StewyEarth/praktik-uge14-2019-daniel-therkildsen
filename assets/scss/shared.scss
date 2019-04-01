@@ -1,6 +1,31 @@
+@import "fonts.scss";
 body{
     margin: 0;
 }
+.link{
+    text-decoration: none;
+}
 .header{
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
     padding: 1em;
+    border-bottom: 1px solid transparent;
+    height: 93px;
+    box-sizing: border-box; 
+    &__logo{
+        height: 60px;
+    }
+    &__linklist{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none; 
+    }
+    &__linkitem{
+        margin-right: 1em;
+        &:last-of-type{
+            margin-right: 0;
+        }
+    }
 }

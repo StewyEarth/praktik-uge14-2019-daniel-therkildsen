@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"lighttheme.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/lighttheme.scss"],"names":[],"mappings":"AAAA;EACI;;AACA;EACI;;;AAGR;EACI;EACA","file":"lighttheme.css"}

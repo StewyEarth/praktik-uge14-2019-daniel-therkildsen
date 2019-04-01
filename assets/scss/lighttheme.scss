@@ -1,0 +1,10 @@
+.link{
+    color: white;
+    &:hover{
+        color: lighten(black,20%);
+    }
+}
+.header{
+    background-color: #1971c2;
+    border-color: #c2c2c2;
+}
