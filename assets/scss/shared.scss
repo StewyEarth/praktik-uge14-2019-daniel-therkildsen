@@ -1,5 +1,6 @@
 @import "fonts.scss";
 @import "frontpage.scss";
+@import "gallery.scss";
 body{
     margin: 0;
 }
@@ -68,4 +69,7 @@ body{
         flex-basis: 80%;
         color: white;
     }
+}
+.hidden{
+    display: none;
 }
