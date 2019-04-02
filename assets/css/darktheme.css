@@ -7,7 +7,10 @@
 
 .header {
   background-color: #111111;
-  border-color: #c2c2c2;
+}
+
+.top-banner-container__content {
+  background-color: rgba(17, 17, 17, 0.5);
 }
 
 /*# sourceMappingURL=darktheme.css.map */

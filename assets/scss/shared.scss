@@ -1,4 +1,5 @@
 @import "fonts.scss";
+@import "frontpage.scss";
 body{
     margin: 0;
 }
@@ -10,7 +11,6 @@ body{
     align-items: flex-end;
     display: flex;
     padding: 1em;
-    border-bottom: 1px solid transparent;
     height: 93px;
     box-sizing: border-box; 
     &__logo{
@@ -28,4 +28,10 @@ body{
             margin-right: 0;
         }
     }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1em;
 }

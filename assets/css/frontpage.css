@@ -1,0 +1,36 @@
+.top-banner-container {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.top-banner-container__image {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+}
+.top-banner-container__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.top-banner-container__content-wrapper {
+  width: 70%;
+  text-align: center;
+}
+.top-banner-container__logo {
+  height: 200px;
+  border-bottom: 2px solid white;
+  padding-bottom: 1em;
+}
+.top-banner-container__text {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=frontpage.css.map */
