@@ -1,18 +1,25 @@
+let cssThemeElem = document.querySelector("#csstheme");
 function fetchDone() {
-    let cssThemeElem = document.querySelector("#csstheme");
+    GetTheme();
     let changeThemeBtnElem = document.querySelector('.switchtheme');
     changeThemeBtnElem.addEventListener('click', () => {
         if (cssThemeElem.dataset.theme == "light") {
-            cssThemeElem.href = "assets/css/darktheme.css"
-            cssThemeElem.dataset.theme = "dark"
-            localStorage.setItem("theme", "dark");
+            changeTheme("dark")
         } else {
-            cssThemeElem.href = "assets/css/lighttheme.css"
-            cssThemeElem.dataset.theme = "light"
-            localStorage.setItem("theme", "light");
+            changeTheme("light")
         };
     });
 };
-document.addEventListener('DOMContentLoaded', () => {
-    
-});
+function changeTheme(theme){
+    cssThemeElem.href = `assets/css/${theme}theme.css`
+    cssThemeElem.dataset.theme = theme
+    localStorage.setItem("theme", theme);
+}
+function GetTheme(){
+    if(localStorage.getItem("theme") != null){
+        changeTheme(localStorage.getItem("theme"))
+    }else{
+        localStorage.setItem("theme", dark);
+    }
+
+}
