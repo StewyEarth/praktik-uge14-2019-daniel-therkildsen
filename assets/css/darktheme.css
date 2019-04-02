@@ -13,4 +13,12 @@
   background-color: rgba(17, 17, 17, 0.5);
 }
 
+.footer {
+  background-color: #111111;
+}
+
+.footer__title {
+  color: #1971c2;
+}
+
 /*# sourceMappingURL=darktheme.css.map */

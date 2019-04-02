@@ -2,8 +2,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
 }
 
-label, p, a, button {
+label, p, a, button, li, small {
   font-family: "Montserrat", sans-serif;
+}
+
+.top-banner-container__text {
+  font-size: 1.3rem;
+}
+
+.linkitem--socials {
+  font-size: 1.3rem;
 }
 
 .top-banner-container {
@@ -38,7 +46,6 @@ label, p, a, button {
 }
 .top-banner-container__text {
   color: #ffffff;
-  font-size: 1.3rem;
 }
 
 body {
@@ -60,24 +67,55 @@ body {
 .header__logo {
   height: 60px;
 }
-.header__linklist {
+
+.linklist, .linklist--row {
   margin: 0;
   padding: 0;
-  display: flex;
   list-style-type: none;
 }
-.header__linkitem {
+.linklist--row {
+  display: flex;
+}
+
+.linkitem--header {
   margin-right: 1em;
 }
-.header__linkitem:last-of-type {
+.linkitem--header:last-of-type {
+  margin-right: 0;
+}
+.linkitem--socials {
+  margin-right: 0.5rem;
+}
+.linkitem--socials:last-of-type {
   margin-right: 0;
 }
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
   padding: 1em;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.footer__title {
+  margin: 0 0 0.2em 0;
+  font-style: normal;
+}
+.footer__socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__address .linklist, .footer__address .linklist--row {
+  color: white;
+}
+.footer__copyright {
+  border-top: 1px solid white;
+  margin-top: 1em;
+  padding-top: 1em;
+  flex-basis: 80%;
+  color: white;
 }
 
 /*# sourceMappingURL=shared.css.map */
