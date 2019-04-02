@@ -3,23 +3,23 @@
 ### **ALLE UNDERSIDER**
 **Navigation** og **Footer**
 
-* Skal laves som en **HTML parital**, for at undgå, at have en en kopi på hver underside.
+* ~~Skal laves som en **HTML parital**, for at undgå, at have en en kopi på hver underside.~~
 
-* Navigationen skal selvfølgelig linke til alle undersider.
+* ~~Navigationen skal selvfølgelig linke til alle undersider.~~
 
-* Javascriptet der indlæser disse to skal være i en fil for sig selv.
+* ~~Javascriptet der indlæser disse to skal være i en fil for sig selv.~~
 
 * Se om du kan undgå, at siden hopper pga. den forsinkede indlæsning af HTML partials (brug f.eks. nogle faste højder).
 
 **Tema-knap**
 
-* Der skal være en knap på alle undersider til at **skifte tema** (uden at genindlæse siden).
+* ~~Der skal være en knap på alle undersider til at **skifte tema** (uden at genindlæse siden).~~
 
 * Indstillingen skal **gemmes i LocalStorage**.
 
 * Indstillingen skal **hentes fra LocalStorage** hver gang siden indlæses. <br>Hvis du oplever, at siden blinker, fordi dit script er for længe om at skifte til det andet tema, så overvej om scriptet skal køres tidligt på siden (og uden DOMContentLoaded). <br>Det er IKKE et krav, at du løser dette problem.
 
-* Jeg vil ikke råde dig til at **transition** fra det ene tema til det andet, når temaet skiftes ved geninlæsning af siden. Det giver kun mening, når man klikker på knappen.<br>Er du i tvivl? Så drop transition.
+* ~~Jeg vil ikke råde dig til at **transition** fra det ene tema til det andet, når temaet skiftes ved geninlæsning af siden. Det giver kun mening, når man klikker på knappen.<br>Er du i tvivl? Så drop transition.~~
 
 <br>
 
