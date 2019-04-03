@@ -24,3 +24,19 @@ body{
 .gallery__errormsg{
     color: white;
 }
+
+.employee{
+    &__name{
+        color: white;
+    }
+    &__position{
+        color: #1971c2;
+    }
+    &__about{
+        color: darken(white,20%);
+    }
+    &__errormsg{
+        color: white; 
+    }
+
+}

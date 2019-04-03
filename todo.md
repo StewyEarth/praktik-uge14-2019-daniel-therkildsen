@@ -9,15 +9,15 @@
 
 * ~~Javascriptet der indlæser disse to skal være i en fil for sig selv.~~
 
-* Se om du kan undgå, at siden hopper pga. den forsinkede indlæsning af HTML partials (brug f.eks. nogle faste højder).
+* ~~Se om du kan undgå, at siden hopper pga. den forsinkede indlæsning af HTML partials (brug f.eks. nogle faste højder)~~.
 
 **Tema-knap**
 
 * ~~Der skal være en knap på alle undersider til at **skifte tema** (uden at genindlæse siden).~~
 
-* Indstillingen skal **gemmes i LocalStorage**.
+* ~~Indstillingen skal **gemmes i LocalStorage**.~~
 
-* Indstillingen skal **hentes fra LocalStorage** hver gang siden indlæses. <br>Hvis du oplever, at siden blinker, fordi dit script er for længe om at skifte til det andet tema, så overvej om scriptet skal køres tidligt på siden (og uden DOMContentLoaded). <br>Det er IKKE et krav, at du løser dette problem.
+* ~~Indstillingen skal **hentes fra LocalStorage** hver gang siden indlæses. <br>Hvis du oplever, at siden blinker, fordi dit script er for længe om at skifte til det andet tema, så overvej om scriptet skal køres tidligt på siden (og uden DOMContentLoaded). <br>Det er IKKE et krav, at du løser dette problem.~~
 
 * ~~Jeg vil ikke råde dig til at **transition** fra det ene tema til det andet, når temaet skiftes ved geninlæsning af siden. Det giver kun mening, når man klikker på knappen.<br>Er du i tvivl? Så drop transition.~~
 
@@ -65,9 +65,9 @@
 
 * ~~Den må hellere ikke vise fejl, hvis der ikke er nogen billedstier.~~
 
-* **Hele galleriet** (billedet, titlen og knapperne) skal sættes til **display: none**, hvis der ikke er nogen billedstier i HTML'en, og den skal **vise beskeden** _**"Der er desværre ingen billeder."**_
+* ~~**Hele galleriet** (billedet, titlen og knapperne) skal sættes til **display: none**, hvis der ikke er nogen billedstier i HTML'en, og den skal **vise beskeden** _**"Der er desværre ingen billeder."**_~~
 
-* Få den til at **huske, hvilket billedet, man var nået til**, så man har mulighed for at hoppe til andre undersider og komme tilbage og fortsætte. <br>Her ville det være oplagt at bruge **LocalStorage**.
+* ~~Få den til at **huske, hvilket billedet, man var nået til**, så man har mulighed for at hoppe til andre undersider og komme tilbage og fortsætte. <br>Her ville det være oplagt at bruge **LocalStorage**.~~
 
 <br>
 
@@ -75,9 +75,9 @@
 
 Denne side skal vise en fake medarbejderside.
 
-* Gør nogle **tilfældige billeder** klar.
+* ~~Gør nogle **tilfældige billeder** klar.~~
 
-* I en **JSON**-fil, indsæt følgende om **minimum 3 medarbejdere**:
+* ~~I en **JSON**-fil, indsæt følgende om **minimum 3~~ medarbejdere**:
 	* **Navn**
 	* **Stilling**
 	* **Kort tekst** om medarbejderen *(gerne mumletekst)*.

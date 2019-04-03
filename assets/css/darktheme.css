@@ -29,4 +29,17 @@ body {
   color: white;
 }
 
+.employee__name {
+  color: white;
+}
+.employee__position {
+  color: #1971c2;
+}
+.employee__about {
+  color: #cccccc;
+}
+.employee__errormsg {
+  color: white;
+}
+
 /*# sourceMappingURL=darktheme.css.map */

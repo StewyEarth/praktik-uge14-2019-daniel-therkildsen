@@ -122,6 +122,38 @@ label, p, a, button, li, small {
   padding: 0.5em 1em;
 }
 
+.employeelist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.employee {
+  text-align: center;
+}
+.employee__imgcontainer {
+  height: 300px;
+}
+.employee__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+.employee__name {
+  margin: 0.5rem 0 0 0;
+}
+.employee__position {
+  margin: 0.5rem 0 0 0;
+}
+.employee__errormsg {
+  margin: 1em auto;
+  width: 80%;
+}
+
 body {
   margin: 0;
 }
@@ -135,7 +167,7 @@ body {
   align-items: flex-end;
   display: flex;
   padding: 1em;
-  height: 93px;
+  min-height: 93px;
   box-sizing: border-box;
 }
 .header__logo {
@@ -165,6 +197,8 @@ body {
 }
 
 .footer {
+  min-height: 180px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;

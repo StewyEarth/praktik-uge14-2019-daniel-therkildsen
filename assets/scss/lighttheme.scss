@@ -14,3 +14,12 @@
 .footer{
     background-color: #1971c2
 }
+.employee{
+    &__position{
+        color: #1971c2;
+    }
+    &__about{
+        color: lighten(#111111,10%);
+    }
+
+}

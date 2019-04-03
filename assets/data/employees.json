@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Marcus k. Silva",
+        "position": "Ceo",
+        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "pictureUrl":"assets/img/employees/marcus.jpg"
+    },
+    {
+        "name":"Michael J. Starr",
+        "position": "Social Media Coordinator",
+        "about":"Dolor sit amet consectetur adipisicing elit.",
+        "pictureUrl":"assets/img/employees/michael.jpg"
+    },
+    {
+        "name":"Maria R. Mixon",
+        "position": "Marketing",
+        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "pictureUrl":"assets/img/employees/maria.jpg"
+    }
+]
