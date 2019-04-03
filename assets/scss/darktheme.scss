@@ -40,3 +40,27 @@ body{
     }
 
 }
+.guestbook-top{
+    // background-color: rgba($color: #111111, $alpha: .5);
+    &__text{
+        color: white;
+    }
+}
+.guestbookform{
+    input,textarea{
+        background-color: rgba($color: black, $alpha: .5);
+        color: white;
+    }
+}
+.guestbook-entries__title{
+    background-color: #111111;
+}
+.entry{
+    border-color: #111111;
+    h3{
+        color: white;
+    }
+    p{
+        color: #ededed
+    }
+}

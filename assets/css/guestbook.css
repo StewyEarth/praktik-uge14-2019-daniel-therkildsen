@@ -1,3 +1,87 @@
+.guestbook-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4em;
+  padding: 2em;
+  margin: 2em auto;
+  border-radius: 1em;
+}
+.guestbook-top__logo-and-text {
+  display: flex;
+}
+.guestbook-top__imgcontainer {
+  height: 300px;
+  width: 300px;
+}
+.guestbook-top__img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: top;
+}
+.guestbook-top__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1971c2;
+}
+.guestbook-top__text h2 {
+  margin: 0;
+}
 
+.guestbookform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.guestbookform label {
+  color: #1971c2;
+}
+.guestbookform input, .guestbookform textarea {
+  margin: 0.2em 0 0.5em 0;
+  padding: 0.5em;
+  border: 1px solid transparent;
+}
+.guestbookform .invalidfield {
+  border-color: red;
+}
+
+.guestbook-entries__title {
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.guestbook-entries__errormsg, .guestbookform__thanksmsg {
+  color: #1971c2;
+  padding: 0 1rem;
+}
+
+.guestbookform__thanksmsg {
+  align-self: center;
+  justify-self: center;
+}
+
+.entry {
+  border-bottom: 1px solid transparent;
+  margin: 2em 0 1em 0;
+  padding: 0 1em;
+}
+.entry__personinfocontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.entry__personinfo, .entry__date {
+  margin-top: 0;
+}
+
+.guestbook-entrylist {
+  margin-bottom: 2em;
+}
+
+.guestbook-wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
 
 /*# sourceMappingURL=guestbook.css.map */

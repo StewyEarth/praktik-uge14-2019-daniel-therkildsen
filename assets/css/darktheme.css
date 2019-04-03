@@ -42,4 +42,27 @@ body {
   color: white;
 }
 
+.guestbook-top__text {
+  color: white;
+}
+
+.guestbookform input, .guestbookform textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.guestbook-entries__title {
+  background-color: #111111;
+}
+
+.entry {
+  border-color: #111111;
+}
+.entry h3 {
+  color: white;
+}
+.entry p {
+  color: #ededed;
+}
+
 /*# sourceMappingURL=darktheme.css.map */

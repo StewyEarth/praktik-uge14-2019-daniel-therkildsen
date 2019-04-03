@@ -90,3 +90,9 @@ body{
     background-color: red;
     color: white;
 }
+.btn--action{
+    @extend .btn;
+    background-color: #1971c2;
+    color: white;
+    padding: .5em;
+}

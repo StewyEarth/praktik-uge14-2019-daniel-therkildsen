@@ -24,4 +24,17 @@
   color: #2b2b2b;
 }
 
+.guestbookform input, .guestbookform textarea {
+  color: black;
+  border: 1px solid #1971c2;
+}
+
+.guestbook-entries__title {
+  background-color: #1971c2;
+}
+
+.entry {
+  border-color: #1971c2;
+}
+
 /*# sourceMappingURL=lighttheme.css.map */
