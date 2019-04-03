@@ -78,14 +78,14 @@ Denne side skal vise en fake medarbejderside.
 * ~~Gør nogle **tilfældige billeder** klar.~~
 
 * ~~I en **JSON**-fil, indsæt følgende om **minimum 3~~ medarbejdere**:
-	* **Navn**
-	* **Stilling**
-	* **Kort tekst** om medarbejderen *(gerne mumletekst)*.
-	* **Billedets** filnavn
+	* ~~**Navn**~~
+	* ~~**Stilling**~~
+	* ~~**Kort tekst** om medarbejderen *(gerne mumletekst)*.~~
+	* ~~**Billedets** filnavn~~
 
-* Indlæs JSON-filen og **udskriv oplysningerne** på siden ved hjælp af **HTML templates** og **cloneNode**.
+* ~~Indlæs JSON-filen og **udskriv oplysningerne** på siden ved hjælp af **HTML templates** og **cloneNode**.~~
 
-* Hvis JSON-filen ikke indeholder nogen medarbejdere, så skal du vise følgende besked på siden: _**"Medarbejderlisten kommer snart"**_.
+* ~~Hvis JSON-filen ikke indeholder nogen medarbejdere, så skal du vise følgende besked på siden: _**"Medarbejderlisten kommer snart"**_.~~
 
 <br>
 
