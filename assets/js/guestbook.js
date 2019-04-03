@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         guestbookEntries = JSON.parse(localStorage.getItem("guestEntries"));
         console.log(guestbookEntries)
         guestbookEntries.forEach(entry => {
-            createBookEntry(entry);
+            createBookEntry(entry,"after");
         });
     } else {
         guestbook_errormsgElem.classList.remove("hidden");
@@ -59,18 +59,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             guestbookEntry.date = acutalDate;
 
-            guestbookEntries.push(guestbookEntry)
+            guestbookEntries.unshift(guestbookEntry)
             localStorage.setItem("guestEntries", JSON.stringify(guestbookEntries));
 
             guestbook_errormsgElem.classList.add("hidden")
             guestbookformElem.classList.add("hidden")
             guestbookformThanksmsg.classList.remove("hidden");
-            createBookEntry(guestbookEntry)
+            createBookEntry(guestbookEntry,"before")
         }
 
     });
 
-    function createBookEntry(entry) {
+    function createBookEntry(entry,where) {
         let entryHTMLClone = entryTemplate.cloneNode(true);
         entryHTMLClone.querySelector(".entry__personinfo").textContent = entry.name;
         if (entry.email != "") {
@@ -78,7 +78,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         entryHTMLClone.querySelector(".entry__date").textContent = ` ${entry.date}`;
         entryHTMLClone.querySelector(".entry__message").textContent = entry.message;
-        guestbookEntrylistElem.appendChild(entryHTMLClone);
+        if(where == "after"){
+            guestbookEntrylistElem.appendChild(entryHTMLClone);
+        }else if(where == "before"){
+            console.log(guestbookEntrylistElem.firstChild)
+            if(guestbookEntrylistElem.firstChild != null){
+                guestbookEntrylistElem.insertBefore(entryHTMLClone, guestbookEntrylistElem.childNodes[0]);
+            }else{
+                guestbookEntrylistElem.appendChild(entryHTMLClone);
+            }
+
+        }
+
     }
 
     function validateEmail(email) {

@@ -93,32 +93,32 @@ Denne side skal vise en fake medarbejderside.
 
 Siden skal vise en **fake gæstebog**. Dvs, indlæggene **huskes kun på den computer, du sidder ved**. De skal ikke være tilgængelige online.
 
-* Der skal være en **formular** med følgende felter:
+* ~~Der skal være en **formular** med følgende felter:~~
 
-	* **Navn**  *(påkrævet)*
-	* **Email**  *(valgfri)*
-	* **Besked**  *(påkrævet)*
-	* **Submit-knap**
+	* ~~**Navn**  *(påkrævet)*~~
+	* ~~**Email**  *(valgfri)*~~
+	* ~~**Besked**  *(påkrævet)*~~
+	* ~~**Submit-knap**~~
 
-* Under formularen skal den **vise alle indlæg** (navn og besked, nyeste først) eller, hvis der endnu ikke er nogen, så vises beskeden _**"Gæstebogen er tom. Vær den første til at skrive!"**_.
+* ~~Under formularen skal den **vise alle indlæg** (navn og besked, nyeste først) eller, hvis der endnu ikke er nogen, så vises beskeden _**"Gæstebogen er tom. Vær den første til at skrive!"**_.~~
 
 * Når der trykkes på **submit-knappen**:
 
-	* **Validér** navn og besked.
+	* ~~**Validér** navn og besked.~~
 
 		* Vis **fejlbeskeder/feedback** hvis nødvendigt.
 
 		* Forsøg at vise alle fejl samtidig. Dvs. få den ikke til at brokke sig over ét felt ad gangen, men alle påkrævedede felter, der ikke er udfyldt korrekt.
 
-	* Hvis felterne er i orden, indsæt navn, email og besked i et **array** i **LocalStorage**.
+	* ~~Hvis felterne er i orden, indsæt navn, email og besked i et **array** i **LocalStorage**.~~
 
-	* **Skjul formularen**.
+	* ~~**Skjul formularen**.~~
 	
-	* Vis beskeden _**"Tak for besøget"**_.
+	* ~~Vis beskeden _**"Tak for besøget"**_.~~
 
-	* **Vis den indtastede besked** som den første i ovennævnte liste og helst uden at genindlæse siden.<br>
-	Hvis dette driller dig, så indlæs gerne siden.
+	* ~~**Vis den indtastede besked** som den første i ovennævnte liste og helst uden at genindlæse siden.<br>
+	Hvis dette driller dig, så indlæs gerne siden.~~
 
 **Ekstraopgave** (Gæstebog)
 
-* Få den til at gemme de rigtige **datoer** og **tidspunkter**.
+* ~~Få den til at gemme de rigtige **datoer** og **tidspunkter**.~~
