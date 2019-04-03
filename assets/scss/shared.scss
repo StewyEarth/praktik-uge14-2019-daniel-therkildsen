@@ -73,3 +73,16 @@ body{
 .hidden{
     display: none;
 }
+.btn{
+    border: none;
+}
+.btn--success{
+    @extend .btn;
+    background-color: green;
+    color: white;
+}
+.btn--error{
+    @extend .btn;
+    background-color: red;
+    color: white;
+}

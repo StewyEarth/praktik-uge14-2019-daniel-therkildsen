@@ -64,6 +64,13 @@ label, p, a, button, li, small {
 .gallery__imgcontainer {
   height: 500px;
 }
+.gallery:hover .gallery__controls {
+  opacity: 1;
+}
+.gallery__controls {
+  opacity: 0;
+  transition: all 0.5s;
+}
 .gallery__img {
   height: 100%;
   width: 100%;
@@ -74,7 +81,7 @@ label, p, a, button, li, small {
   position: absolute;
   transform: translate(0, -50%);
   width: 10%;
-  height: 100%;
+  height: 20%;
   border: none;
   background-color: rgba(0, 0, 0, 0.3);
   font-size: 2rem;
@@ -101,13 +108,18 @@ label, p, a, button, li, small {
   z-index: 1;
 }
 .gallery__imgcounter {
-  position: absolute;
-  bottom: 3%;
-  right: 50%;
-  background-color: rgba(0, 0, 0, 0.7);
   margin: 0;
-  padding: 0.5em;
   color: white;
+}
+.gallery__info {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0.5em 1em;
 }
 
 body {
@@ -182,6 +194,20 @@ body {
 
 .hidden {
   display: none;
+}
+
+.btn, .btn--error, .btn--success {
+  border: none;
+}
+
+.btn--success {
+  background-color: green;
+  color: white;
+}
+
+.btn--error {
+  background-color: red;
+  color: white;
 }
 
 /*# sourceMappingURL=shared.css.map */

@@ -19,7 +19,7 @@ function GetTheme(){
     if(localStorage.getItem("theme") != null){
         changeTheme(localStorage.getItem("theme"))
     }else{
-        localStorage.setItem("theme", dark);
+        localStorage.setItem("theme", "dark");
     }
 
 }

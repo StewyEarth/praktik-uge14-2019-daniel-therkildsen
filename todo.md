@@ -33,37 +33,37 @@
 
 ### **GALLERI** _(underside)_
 
-Siden skal vise et **simpelt galleri** i stil med dét du lavede i Del 2 af Avanceret Frontend faget.
+~~Siden skal vise et **simpelt galleri** i stil med dét du lavede i Del 2 af Avanceret Frontend faget.~~
 
-* Der skal mimimum være **3 billeder**.
+* ~~Der skal mimimum være **3 billeder**.~~
 
-* **Billedstierne** skal gemmes i form af **data-attributter**.
+* ~~**Billedstierne** skal gemmes i form af **data-attributter**.~~
 
-* **Korte titler** til billederne skal også gemmes i form af **data-attributter** og vises på siden under billedet.
+* ~~**Korte titler** til billederne skal også gemmes i form af **data-attributter** og vises på siden under billedet.~~
 
-* Den skal vise **hvilket billednr**, man er nået til således: 1 / 3.
+* ~~Den skal vise **hvilket billednr**, man er nået til således: 1 / 3.~~
 
-	* Dette skal du gøre uden ekstra data-attributter.
+	* ~~Dette skal du gøre uden ekstra data-attributter.~~
 
-	* Den må ikke skrive 0 / 2, når der f.eks. er 3 billeder (altså må den ikke vises index'et).
+	* ~~Den må ikke skrive 0 / 2, når der f.eks. er 3 billeder (altså må den ikke vises index'et).~~
 
-* Der skal være en **"Forrige"** og **"Næste"** **knap** *(engelsk også tilladt, selvfølgelig)*<br><br>**For at undgå, at knapperne flytter sig**, når man skifter billede, gør følgende:
+* ~~Der skal være en **"Forrige"** og **"Næste"** **knap** *(engelsk også tilladt, selvfølgelig)*<br><br>**For at undgå, at knapperne flytter sig**, når man skifter billede, gør følgende:~~
 
-	* Hvis du har placeret knapperne **over/under** billedet, <br>så giv billedet en **fast højde**.
+	* ~~Hvis du har placeret knapperne **over/under** billedet, <br>så giv billedet en **fast højde**.~~
 
-	* Hvis du har placeret knapperne **ved siden ad** billedet, <br>så giv billedet en **fast bredde**.
+	* ~~Hvis du har placeret knapperne **ved siden ad** billedet, <br>så giv billedet en **fast bredde**.~~
 
-* Der skal være en **"Auto" knap**
+* ~~Der skal være en **"Auto" knap**~~
 
-	* Når der klikkes første gang, begynder den **automatisk at skifte billede** ca. hvert andet sekund. Klikker man på knappen.
+	* ~~Når der klikkes første gang, begynder den **automatisk at skifte billede** ca. hvert andet sekund. Klikker man på knappen.~~
 
-	* Når knappen trykkes igen, **stopper den**.
+	* ~~Når knappen trykkes igen, **stopper den**.~~
 
-	* Knappen skal skifte **udseende**, når der trykkes på den.<br>Gør dette ved at **ændre class'en**, ikke vha. style egenskaben i Javascript.
+	* ~~Knappen skal skifte **udseende**, når der trykkes på den.<br>Gør dette ved at **ændre class'en**, ikke vha. style egenskaben i Javascript.~~
 
-* Javascriptet skal selv **holde styr på, hvor mange billeder der er**. <br>**Den må ikke vise fejl**, hvis man senere går ind og tilføjer/fjerner billedstier i HTML'en.
+* ~~Javascriptet skal selv **holde styr på, hvor mange billeder der er**. <br>**Den må ikke vise fejl**, hvis man senere går ind og tilføjer/fjerner billedstier i HTML'en.~~
 
-* Den må hellere ikke vise fejl, hvis der ikke er nogen billedstier.
+* ~~Den må hellere ikke vise fejl, hvis der ikke er nogen billedstier.~~
 
 * **Hele galleriet** (billedet, titlen og knapperne) skal sættes til **display: none**, hvis der ikke er nogen billedstier i HTML'en, og den skal **vise beskeden** _**"Der er desværre ingen billeder."**_
 
