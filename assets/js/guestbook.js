@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
             guestbookform_nameElem.classList.remove("invalidfield");
 
         } else {
-            console.log("fucked")
             guestbookform_nameElem.classList.add("invalidfield");
             problem = true
         }
@@ -55,7 +54,15 @@ document.addEventListener('DOMContentLoaded', () => {
             guestbookEntry.email = guestbookform_emailElem.value;
 
             let date = new Date;
-            let acutalDate = `${date.getDay()}. ${months[date.getMonth()]} ${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}`
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            if (minutes < 10){
+                minutes = "0" + minutes;
+            }
+            if (hours < 10){
+                hours = "0" + hours;
+            }
+            let acutalDate = `${date.getDay()}. ${months[date.getMonth()]} ${date.getFullYear()} ${hours}:${minutes}`
 
             guestbookEntry.date = acutalDate;
 
