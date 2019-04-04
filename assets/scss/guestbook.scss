@@ -78,3 +78,23 @@
     margin: 0 auto;
     width: 80%;
 }
+.inputfield{
+    position: relative;
+    input,textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    &__errormsg{
+        color: red;
+        padding: .3rem .5em;
+        position: absolute;
+        margin: 0;
+        top: 45%;
+        left: -2%;
+        transform:translate(-100%,-50%);
+        border: 1px solid red;
+        .fa-exclamation{
+            margin-right: .3rem;
+        }
+    }
+}

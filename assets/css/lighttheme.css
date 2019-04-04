@@ -37,4 +37,8 @@
   border-color: #1971c2;
 }
 
+.inputfield__errormsg {
+  background-color: white;
+}
+
 /*# sourceMappingURL=lighttheme.css.map */

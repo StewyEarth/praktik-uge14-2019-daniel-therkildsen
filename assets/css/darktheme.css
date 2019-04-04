@@ -65,4 +65,8 @@ body {
   color: #ededed;
 }
 
+.inputfield__errormsg {
+  background-color: #111111;
+}
+
 /*# sourceMappingURL=darktheme.css.map */

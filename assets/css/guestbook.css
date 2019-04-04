@@ -84,4 +84,25 @@
   width: 80%;
 }
 
+.inputfield {
+  position: relative;
+}
+.inputfield input, .inputfield textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.inputfield__errormsg {
+  color: red;
+  padding: 0.3rem 0.5em;
+  position: absolute;
+  margin: 0;
+  top: 45%;
+  left: -2%;
+  transform: translate(-100%, -50%);
+  border: 1px solid red;
+}
+.inputfield__errormsg .fa-exclamation {
+  margin-right: 0.3rem;
+}
+
 /*# sourceMappingURL=guestbook.css.map */
