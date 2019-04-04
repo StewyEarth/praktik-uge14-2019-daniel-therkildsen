@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let imgIndex;
     let galleryTimer;
 
-    if(localStorage.getItem("imgIndex") == null){
+    if (localStorage.getItem("imgIndex") == null) {
         imgIndex = 0;
-    }else{
+    } else {
         imgIndex = parseInt(localStorage.getItem("imgIndex"));
     }
 
@@ -39,14 +39,19 @@ document.addEventListener('DOMContentLoaded', () => {
     nextImgBtn.addEventListener('click', () => {
         imgIndex++
         showImage();
-        stopTimer();
-        initiateTimer();
+        if (galleryAutoBtnElem.classList.contains("btn--success")) {
+            stopTimer();
+            initiateTimer();
+        }
+
     });
     previousImgBtn.addEventListener('click', () => {
         imgIndex--
         showImage();
-        stopTimer();
-        initiateTimer();
+        if (galleryAutoBtnElem.classList.contains("btn--success")) {
+            stopTimer();
+            initiateTimer();
+        }
     });
 
     galleryAutoBtnElem.addEventListener('click', () => {
@@ -83,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     function showImage() {
         restrictImgIndex();
-        localStorage.setItem("imgIndex",imgIndex)
+        localStorage.setItem("imgIndex", imgIndex)
         galleryImgCounterElem.textContent = `${imgIndex + 1} / ${gallery_images.length}`;
         galleryImgElem.src = gallery_images[imgIndex].imgpath;
         galleryTitleElem.textContent = gallery_images[imgIndex].imgtitle;
