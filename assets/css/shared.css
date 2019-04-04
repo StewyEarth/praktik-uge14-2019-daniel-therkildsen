@@ -314,6 +314,10 @@ textarea, input {
   margin-right: 0.3rem;
 }
 
+.entry__message {
+  margin-top: 0;
+}
+
 body {
   margin: 0;
 }

@@ -61,7 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
             guestbookEntry.name = guestbookform_nameElem.value;
             guestbookEntry.message = guestbookform_messageElem.value;
             guestbookEntry.email = guestbookform_emailElem.value;
-
+            guestbookform_nameElem.value = "";
+            guestbookform_emailElem.value = "";
+            guestbookform_messageElem.value = "";
             let date = new Date;
             let hours = date.getHours();
             let minutes = date.getMinutes();
