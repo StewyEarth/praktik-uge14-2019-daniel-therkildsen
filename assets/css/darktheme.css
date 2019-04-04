@@ -69,4 +69,19 @@ body {
   background-color: #111111;
 }
 
+.aboutus {
+  background-color: #222222;
+  color: white;
+}
+
+.site-overview__item {
+  color: white;
+}
+
+.site-overview__title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+}
+
 /*# sourceMappingURL=darktheme.css.map */

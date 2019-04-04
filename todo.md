@@ -106,9 +106,9 @@ Siden skal vise en **fake gæstebog**. Dvs, indlæggene **huskes kun på den com
 
 	* ~~**Validér** navn og besked.~~
 
-		* Vis **fejlbeskeder/feedback** hvis nødvendigt.
+		* ~~Vis **fejlbeskeder/feedback** hvis nødvendigt.~~
 
-		* Forsøg at vise alle fejl samtidig. Dvs. få den ikke til at brokke sig over ét felt ad gangen, men alle påkrævedede felter, der ikke er udfyldt korrekt.
+		* ~~Forsøg at vise alle fejl samtidig. Dvs. få den ikke til at brokke sig over ét felt ad gangen, men alle påkrævedede felter, der ikke er udfyldt korrekt.~~
 
 	* ~~Hvis felterne er i orden, indsæt navn, email og besked i et **array** i **LocalStorage**.~~
 

@@ -68,3 +68,17 @@ body{
 .inputfield__errormsg{
     background-color: #111111;
 }
+.aboutus{
+    background-color: #222222;
+    color: white;
+}
+.site-overview__item{
+    color: white;
+}
+.site-overview{
+    &__title{
+        text-align: center;
+        font-size: 1.8rem;
+        color: white;
+    }
+}
