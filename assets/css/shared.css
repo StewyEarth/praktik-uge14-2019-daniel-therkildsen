@@ -394,7 +394,7 @@ body {
   display: none;
 }
 
-.btn, .btn--action, .btn--error, .btn--success {
+.btn, .btn--action, .switchtheme, .btn--error, .btn--success {
   border: none;
 }
 
@@ -408,10 +408,21 @@ body {
   color: white;
 }
 
-.btn--action {
+.btn--action, .switchtheme {
   background-color: #1971c2;
   color: white;
   padding: 0.5em;
+}
+
+.switchtheme {
+  margin-bottom: 0.5em;
+}
+
+.footerwrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  width: 80%;
 }
 
 /*# sourceMappingURL=shared.css.map */

@@ -96,3 +96,14 @@ body{
     color: white;
     padding: .5em;
 }
+.switchtheme{
+    @extend .btn--action;
+    margin-bottom: .5em;
+}
+
+.footerwrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1em;
+    width: 80%;
+}
