@@ -316,6 +316,7 @@ textarea, input {
 
 .entry__message {
   margin-top: 0;
+  overflow-wrap: break-word;
 }
 
 body {

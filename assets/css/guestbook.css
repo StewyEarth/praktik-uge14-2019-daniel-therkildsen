@@ -107,6 +107,7 @@
 
 .entry__message {
   margin-top: 0;
+  overflow-wrap: break-word;
 }
 
 /*# sourceMappingURL=guestbook.css.map */
